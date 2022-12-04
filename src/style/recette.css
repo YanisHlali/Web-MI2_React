@@ -1,0 +1,86 @@
+.pageRecette h1 {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    margin: 1em 0;
+    font-family: "Roboto", sans-serif;
+    color: #FF69B4;
+    width: 100%;
+}
+
+.pageRecette h1.title-recette {
+    width: 90%;
+}
+
+.pageRecette input.input {
+    display: block;
+    width: 50%;
+    min-width: 200px;
+    outline: none;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    height: 2em;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 1em;
+    padding: 5px;
+}
+
+.pageRecette {
+    width: 100%;
+    min-height: 350px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.recette {
+    display: inline-block;
+    border: 2px solid pink;
+    min-width: 250px;
+    max-width: 400px;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+
+.recette h1 {
+    color: black;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.recette .origin {
+    text-align: center;
+    font-size: 1em;
+    padding: 10px;
+    border-radius: 0 0 5px 5px;
+    font-family: "Roboto", sans-serif;
+}
+
+img.recette {
+    display: block;
+    width: 25vh;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: none;
+}
+
+.recette p {
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+.pageRecette p.error {
+    color: pink;
+    font-size: 1.5em;
+    padding: 15px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}

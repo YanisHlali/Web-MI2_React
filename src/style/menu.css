@@ -1,0 +1,23 @@
+.menu {
+    width: 60%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.menu-item {
+    width: 100px;
+    text-align: center;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: #FF69B4;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;  
+}
+
+.menu-link-active {
+    color: #FF69B4;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+}
